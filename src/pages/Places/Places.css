@@ -1,0 +1,38 @@
+.places,
+.events {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 1rem 0.5rem;
+}
+
+.places-filter,
+.events-filter {
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 0.25rem;
+}
+
+.places-title,
+.events-title {
+  text-align: center;
+}
+
+.places-title {
+  text-transform: capitalize;
+}
+
+.results-number {
+  text-align: center;
+  font-size: var(--small-font-size);
+  margin: .25rem 0 2rem;
+}
+
+.places-list,
+.events-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  column-gap: 1rem;
+  row-gap: 1rem;
+}

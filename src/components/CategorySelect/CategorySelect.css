@@ -1,0 +1,8 @@
+.category-select select {
+    padding: .5rem;
+    border: none;
+}
+
+.category-select label {
+    margin-right: 1rem;
+}

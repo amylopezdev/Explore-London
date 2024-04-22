@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: var(--navbar-height);
+    background-color: hsl(0, 2%, 12%);
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .navbar .logo {
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+  }
+  
+  .navbar a {
+    display: flex;
+    margin: 0 0.5rem;
+  }
+  

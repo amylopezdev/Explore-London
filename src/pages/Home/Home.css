@@ -1,0 +1,49 @@
+.home {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, calc((100vh - var(--navbar-height)) / 3));
+    overflow: hidden;
+  }
+  
+  .home .overlay {
+    background-color: hsla(0, 5%, 15%, 0.5);
+  }
+  
+  @media screen and (min-width: 1100px) {
+    .home {
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      grid-template-rows: calc(100vh - var(--navbar-height));
+    }
+  }
+  
+  .hero {
+    position: relative;
+  }
+  
+  .home .hero img {
+    height: 100%;
+  }
+  
+  .hero .category-title {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.8rem;
+    font-weight: var(--font-weight);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+  }
+  
+  
+  @media screen and (min-width: 900px) {
+    .hero .category-title {
+      font-size: 2.8rem;
+      line-height: 1.5;
+    }
+  }
+  

@@ -1,0 +1,55 @@
+.place-details {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .place-details img {
+    height: 350px;
+  }
+  
+  .place-details .place-info {
+    padding: 1rem;
+  }
+  
+  .place-details .place-title {
+    font-size: var(--large-font-size);
+  }
+  
+  .place-details .place-subtitle {
+    font-size: var(--small-font-size);
+    margin-top: 0.25rem;
+  }
+  
+  .place-titles,
+  .place-description,
+  .place-stations,
+  .place-website {
+    margin-bottom: 0.8rem;
+  }
+  
+  .place-description {
+    line-height: 1.3;
+  }
+  
+  .place-details h4 {
+    margin-bottom: 0.25rem;
+  }
+  
+  .place-details .place-website a {
+    text-decoration: underline;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .place-details {
+      padding: 3rem 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2rem;
+    }
+  
+    .place-details img {
+      height: 500px;
+      border-radius: var(--border-radius);
+    }
+  }
+  

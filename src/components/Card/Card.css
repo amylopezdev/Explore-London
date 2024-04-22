@@ -1,0 +1,36 @@
+.card {
+    position: relative;
+    border-radius: var(--border-radius);
+    height: 250px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card img {
+    height: 100%;
+    border-radius: var(--border-radius);
+  }
+  
+  .card-title {
+    background-color: hsla(0, 0%, 100%, 0.8);
+    padding: 0.5rem;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: var(--small-font-size);
+  }
+  
+  @media screen and (min-width: 650px) {
+    .card {
+      height: 400px;
+    }
+  }
+  

@@ -1,0 +1,18 @@
+.nearby-places,
+.place-events {
+  padding: 1rem;
+}
+
+.nearby-places-title,
+.place-events-title {
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 800px) {
+  .nearby-places,
+  .place-events {
+    padding: 2rem;
+  }
+}
