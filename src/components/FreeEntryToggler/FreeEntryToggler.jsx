@@ -8,8 +8,8 @@ export const FreeEntryToggler = ({
 }) => {
   return (
     <div className="free-entry-toggler">
-      <h4>Only show {category} with free entry</h4>
-      <label className="switch">
+      <div>Only show {category} with free entry</div>
+      <label className="switch" aria-label="toggle">
         <input
           type="checkbox"
           checked={showOnlyFree}
