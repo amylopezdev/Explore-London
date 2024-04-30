@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Gabarito:wght@400..900&family=Inclusive+Sans:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Noto+Sans+NKo+Unjoined:wght@400..700&family=Onest:wght@100..900&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&family=Sono:wght@200..800&display=swap');
 
 :root {
-  --background-color: hsl(0, 2%, 95%);
+  --background-color: hsl(0, 1%, 98%);
   --accent-color: hsl(302, 43%, 62%);
   --text-color: hsl(0, 0%, 18%);
   --font-family: "Gabarito", sans-serif;
