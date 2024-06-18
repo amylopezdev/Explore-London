@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import { IoIosArrowDown } from "react-icons/io";
 import { Card } from "../../components/Card/Card";
 import "./NearbyPlaces.css";
 

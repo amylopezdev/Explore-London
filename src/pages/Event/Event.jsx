@@ -6,7 +6,6 @@ import { Loading } from "../../components/Loading/Loading";
 import { ErrorMessage } from "../../components/ErrorMessage/ErrorMessage";
 import { BackButton } from "../../components/BackButton/BackButton";
 import { Card } from "../../components/Card/Card";
-import { IoIosArrowDown } from "react-icons/io";
 
 export const Event = () => {
   const { slug } = useParams();

@@ -6,7 +6,6 @@ import { NearbyPlaces } from "../../components/NearbyPlaces/NearbyPlaces";
 import { Loading } from "../../components/Loading/Loading";
 import { ErrorMessage } from "../../components/ErrorMessage/ErrorMessage";
 import { Card } from "../../components/Card/Card";
-import { IoIosArrowDown } from "react-icons/io";
 import { GoChevronLeft } from "react-icons/go";
 
 export const Place = () => {
