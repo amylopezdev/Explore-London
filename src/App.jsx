@@ -1,5 +1,5 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { Error } from "./components/Error/Error";
+import { ErrorMessage } from "./components/ErrorMessage/ErrorMessage";
 import { Layout } from "./pages/Layout";
 import { Home } from "./pages/Home/Home";
 import { Places } from "./pages/Places/Places";

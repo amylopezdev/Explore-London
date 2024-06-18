@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useEvents } from "../../hooks/useEvents";
 import { Details } from "../../components/Details/Details";
 import { Loading } from "../../components/Loading/Loading";
-import { Error } from "../../components/Error/Error";
+import { ErrorMessage } from "../../components/ErrorMessage/ErrorMessage";
 import { BackButton } from "../../components/BackButton/BackButton";
 import { Card } from "../../components/Card/Card";
 import { IoIosArrowDown } from "react-icons/io";

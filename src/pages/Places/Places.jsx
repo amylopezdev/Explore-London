@@ -5,7 +5,7 @@ import { CategorySelect } from "../../components/CategorySelect/CategorySelect";
 import { FreeEntryToggler } from "../../components/FreeEntryToggler/FreeEntryToggler";
 import { Card } from "../../components/Card/Card";
 import { Loading } from "../../components/Loading/Loading";
-import { Error } from "../../components/Error/Error";
+import { ErrorMessage } from "../../components/ErrorMessage/ErrorMessage";
 import "./Places.css";
 
 export const Places = () => {

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useEvents } from "../../hooks/useEvents";
 import { Card } from "../../components/Card/Card";
 import { Loading } from "../../components/Loading/Loading";
-import { Error } from "../../components/Error/Error";
+import { ErrorMessage } from "../../components/ErrorMessage/ErrorMessage";
 import { FreeEntryToggler } from "../../components/FreeEntryToggler/FreeEntryToggler";
 
 export const Events = () => {
