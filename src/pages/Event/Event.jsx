@@ -39,7 +39,6 @@ export const Event = () => {
         <div className="place-events">
           <div className="place-events-title">
             Takes place at {event.place.fields.title}
-            <IoIosArrowDown />
           </div>
           <div className="events-list">
             <Card

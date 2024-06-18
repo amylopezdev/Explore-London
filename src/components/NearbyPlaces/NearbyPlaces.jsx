@@ -6,9 +6,7 @@ import "./NearbyPlaces.css";
 export const NearbyPlaces = ({ nearbyPlaces }) => {
   return (
     <div className="nearby-places">
-      <div className="nearby-places-title">
-        Nearby Places<IoIosArrowDown />
-      </div>
+      <div className="nearby-places-title">Nearby Places</div>
       <div className="places-list">
         {nearbyPlaces.map((place) => {
           return (

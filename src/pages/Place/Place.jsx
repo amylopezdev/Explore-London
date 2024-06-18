@@ -44,20 +44,14 @@ export const Place = () => {
   }
   return (
     <section className="place">
-      <Link
-        to="/places"
-        className="back-btn"
-      >
+      <Link to="/places" className="back-btn">
         <GoChevronLeft /> Back
       </Link>
       <ScrollRestoration />
       <Details data={place} />
       {place.events?.length > 0 && (
         <div className="place-events">
-          <div className="place-events-title">
-            Events at {place.title}
-            <IoIosArrowDown />
-          </div>
+          <div className="place-events-title">Events at {place.title}</div>
           <div className="events-list">
             {place.events?.map((event) => {
               return (
