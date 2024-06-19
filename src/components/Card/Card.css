@@ -14,7 +14,7 @@
   }
   
   .card-title {
-    background-color: hsla(0, 0%, 100%, 0.8);
+    background-color: hsl(0 0% 100% / 80%);
     padding: 0.5rem;
     width: 100%;
     display: block;

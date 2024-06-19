@@ -6,7 +6,7 @@
   }
   
   .home .overlay {
-    background-color: hsla(0, 5%, 15%, 0.5);
+    background-color: hsl(0 5% 15% / 50%);
   }
   
   @media screen and (min-width: 1100px) {
